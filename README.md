@@ -53,8 +53,13 @@ It would be amazing if you could use some sort of time/light responsivity to tri
    * don't let your friends get away with paying for their drinks<sup>6</sup>
 
 1: Autopay could be analogous to a feature of Square Wallet that allowed users to automatically order and pay for their "regular" order at location they frequent.  While I agree with the validity (and posibility) of a full noUI application of this, I feel some level of UI is helpful early in a product's life cycle to make it clear to users what's happening and train then to use a lower level of user input to get the things they actually want.  There is more to learn from other failures of the Square Wallet rollout: require early large partnerships to opt into all features of the app.  If major partners fail to enable autopay and fail to train their staff of the use of the feature it's novelty and ability to decrease the friction of the purchasing process will go unleveraged against the growing success of the product.
+
 2: Over the course of multiple orders in the same night autopay could activate a sort of Google Goggles math test to ensure the safty of the apps users.  We're OK with them being forgetful, but we want them to have so much fun they use it again, not that they have so much fun that they can't.
+
 3: If frequent/regular is decided on a sinlge person basis you could agregate that data across multiple locations and offer it across them all and at new locations to reduce friction at this step.  Unsure if you could suggest group orders successfully across multiple locations (or even multiple visits) but I think there could be room to make that case that at a single location you have some level of probability of visiting it with the same people on a regular basis, so there could be a lot more nuance to the "another round" interface.
+
 4: Current database restrictions don't allow for much content sharding to make this process less complicated than a long list of products.  In other contexts I would say price sharing (which is currently available) would be useful, but I've never see someone say "what do you got for $10-15?" at a bar.  More understandable breakdowns like "popular" and "alcohol type" come to mind as ways to more easily navigate to the beverage you're looking to order.
+
 5: Another data point addition for ease of use.
+
 6: If Facebook can take on venmo for micro payments, why can't everyone?
