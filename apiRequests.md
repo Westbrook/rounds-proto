@@ -16,6 +16,7 @@ Enpoint returns:
         },
         ...
     ]
+}
 ```
 
 ###By location
@@ -23,6 +24,7 @@ Accepts a coordinates object and a UUID to sort the response by proximity and fe
 /locations/?location={coordinates object}&user=UUID
 
 i.e.:
+```
 coords: {
     Coordinatesaccuracy: 20,
     altitude: null,
@@ -32,6 +34,7 @@ coords: {
     longitude: -73.96065709999999,
     speed: null
 }
+```
 
 ###By user
 Accepts a UUID to sort the response by fequency/preference of the user
@@ -52,6 +55,7 @@ Endpoint returns:
         },
         ...
     ]
+}
 ```
 
 ###By location
@@ -83,6 +87,7 @@ Endpoint returns:
         },
         ...
     ]
+}
 ```
 
 ###By user
@@ -106,6 +111,7 @@ Endpoint accepts:
         },
         ...
     ]
+}
 ```
 
 ###By user and location
