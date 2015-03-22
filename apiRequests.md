@@ -20,8 +20,8 @@ Enpoint returns:
 ```
 
 ###By location
+####/locations/?location={coordinates object}&user=UUID
 Accepts a coordinates object and a UUID to sort the response by proximity and fequency/preference of the user
-/locations/?location={coordinates object}&user=UUID
 
 i.e.:
 ```
@@ -37,8 +37,8 @@ coords: {
 ```
 
 ###By user
+####/locations/?user=UUID
 Accepts a UUID to sort the response by fequency/preference of the user
-/locations/?user=UUID
 
 #Beverages endpoint
 
@@ -59,8 +59,8 @@ Endpoint returns:
 ```
 
 ###By location
+####/beverages/?location=ID&user=UUID
 Accepts a location ID and a user ID
-/beverages/?location=ID&user=UUID
 
 #Rounds enpoint
 
@@ -91,12 +91,12 @@ Endpoint returns:
 ```
 
 ###By user
+####/rounds/?user=UUID&page_count=10&page=0
 Accepts user ID to return orders sorted by most recent. Also accepts paging data for reduced request size.
-/rounds/?user=UUID&page_count=10&page=0
 
 ###By location
+####/rounds/?user=UUID&location=ID&page_count=10&page=0
 Accepts user ID and location ID to return orders sorted by most recent. Also accepts paging data for reduced request size.
-/rounds/?user=UUID&location=ID&page_count=10&page=0
 
 #Round endpoint
 
@@ -115,5 +115,5 @@ Endpoint accepts:
 ```
 
 ###By user and location
+####/round/?user=UUID&location=id
 Posting an array of beverages triggers an order by the user at the agent ID.
-/round/?user=UUID&location=id
