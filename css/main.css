@@ -1,0 +1,229 @@
+html {
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body > h1 {
+    float: right;
+    padding-right: 20px;
+    margin: 0;
+    line-height: 50px;
+}
+
+body > .settings {
+    position: absolute;
+    top: 20px;
+    height: 2px;
+    left: 15px;
+    width: 20px;
+    background: #000;
+    box-shadow:
+        0 -5px 0 #000,
+        0 5px 0 #000;
+}
+
+button {
+    -webkit-appearance:none;
+    border:none;
+    background:none;
+    text-decoration:none;
+    line-height:1;
+    outline:none;
+    padding:0;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    text-align: center;
+}
+
+.show-list .main-track {
+    -webkit-transform: translate3d(0,-100%,0);
+    transform: translate3d(0,-100%,0);
+}
+
+.fill {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.page {
+    top: 50px;
+    overflow: hidden;
+}
+
+.main-track {
+    z-index: 2;
+}
+
+.main-track > .fill {
+    text-align: center;
+    background: white;
+    -webkit-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+}
+
+.main-track > .current {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.main-track > .current ~ .fill {
+    -webkit-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+}
+
+nav {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+nav button {
+    padding: 10px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+.last-order > * {
+    margin: 0;
+}
+
+.last-order h4 {
+    padding: 30px 0 5px;
+}
+
+.last-order p {
+    padding: 10px 0 15px;
+}
+
+.last-order h1 {
+    padding: 0 0 30px;
+}
+
+.last-order button {
+    border-top: 1px solid #ccc;
+}
+
+.msg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 100px;
+    left: 0;
+    z-index: 1;
+    padding: 0 20px 20px;
+}
+
+.msg ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.msg li {
+    padding: 0;
+    margin: 0;
+}
+
+.confirm,
+.back {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+}
+
+.confirm {
+    right: 0;
+    left: 50%;
+    text-align: left;
+}
+
+.back {
+    right: 50%;
+    left: 0;
+    text-align: right;
+}
+
+.fill > button {
+    z-index: 2;
+}
+
+.more {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+}
+
+.yes,
+.no {
+    position: absolute;
+    top: 0;
+    bottom: 100px;
+    width: 50%;
+}
+
+.yes {
+    right: 0;
+}
+
+.no {
+    left: 0;
+}
+
+.full {
+    width: 100%;
+}
+
+.list {
+    z-index: 1;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.list > ul {
+    display: none;
+}
+
+.list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list li {
+    margin: 0;
+    padding: 10px;
+}
+
+.list li li {
+    padding: 10px 10px 10px 30px;
+}
+
+.list .showing {
+    display: block;
+}
+
+.list button {
+    padding: 10px;
+}
+
+.list li span {
+    float: right;
+    color: #999;
+}
+
+.list .fill {
+    display: none;
+    z-index: 2;
+    background: #fff;
+}
