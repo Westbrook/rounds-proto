@@ -52,6 +52,22 @@ It would be amazing if you could use some sort of time/light responsivity to tri
  4. Request share
    * don't let your friends get away with paying for their drinks<sup>6</sup>
 
+# Further thoughts
+
+###Touch
+Currently the interface is based primarily off of a top/left "No", top/right "Yes" and bottom "More" paradigm.  This could be pushed much further by paralelling that concept with swipe and then matching those interactions with clever animation to make the interaction types very clear to the user.  This will also help clarify the contexts where the interface accepts a "no" answer to move forward through the steps of the app.
+
+###Drink searching
+Searching lists is stupid, but at somepoint, you don't have much of a choice when you have a lot of content.  Along with the sharding of the results, I think the first few rounds of sharding (if kept fairly succinct) should be paired with drink photography to help clarify the user's own intentions to themselves and simplify the I'll have one of *those* process.
+
+###Your share
+If the app can process purchases when the bar context allows for a large amount of related and follow up activity in that area.  Once a purchase is made, everyone needs to pay their share, and whether that means you have to nag your budy who always "forgets" his wallet, or you need to get someone back for only rolling in $100 bills that night, the app should grow into the ability to service those needs.  Then you'd be able to continue into "buy your budy a remote drink" and "virtual buy back" sorts of coverage and beyond helping to increase user loyalty.
+
+###Autopay
+I've included autopay into the main steps of the app interface, but it could easily be turned on/off through the settings and removed from there.  You could even "pin" autopay to certian locations such that at your neighborhood joint you can forget what round your on, but when you're all the way across town you don't get stuck on a bench in a foreign subway stop.  You could also work with "pay as much as XYZ" sort of features once you start getting users bought into the full value of autopay.
+
+# Footnotes
+
 1: Autopay could be analogous to a feature of Square Wallet that allowed users to automatically order and pay for their "regular" order at location they frequent.  While I agree with the validity (and posibility) of a full noUI application of this, I feel some level of UI is helpful early in a product's life cycle to make it clear to users what's happening and train then to use a lower level of user input to get the things they actually want.  There is more to learn from other failures of the Square Wallet rollout: require early large partnerships to opt into all features of the app.  If major partners fail to enable autopay and fail to train their staff of the use of the feature it's novelty and ability to decrease the friction of the purchasing process will go unleveraged against the growing success of the product.
 
 2: Over the course of multiple orders in the same night autopay could activate a sort of Google Goggles math test to ensure the safty of the apps users.  We're OK with them being forgetful, but we want them to have so much fun they use it again, not that they have so much fun that they can't.
